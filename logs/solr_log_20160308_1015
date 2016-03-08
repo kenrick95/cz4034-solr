@@ -1,0 +1,154 @@
+2016-03-08 09:48:32.941 INFO  (qtp1450821318-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1457430480339} status=0 QTime=19 
+2016-03-08 09:48:33.280 INFO  (qtp1450821318-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1457430480589} status=0 QTime=123 
+2016-03-08 09:48:56.165 ERROR (qtp1450821318-15) [   x:cz4034] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/opt/bitnami/apache-solr/solr/cz4034/conf/admin-extra.menu-top.html]
+2016-03-08 09:48:56.169 INFO  (qtp1450821318-15) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1457430503227} status=404 QTime=4 
+2016-03-08 09:48:56.187 ERROR (qtp1450821318-20) [   x:cz4034] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/opt/bitnami/apache-solr/solr/cz4034/conf/admin-extra.menu-bottom.html]
+2016-03-08 09:48:56.187 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1457430503229} status=404 QTime=0 
+2016-03-08 09:48:56.433 INFO  (qtp1450821318-16) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1457430503835} status=0 QTime=4 
+2016-03-08 09:48:56.545 INFO  (qtp1450821318-18) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/replication params={wt=json&command=details&_=1457430503846} status=0 QTime=5 
+2016-03-08 09:48:56.585 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/system params={wt=json&_=1457430503849} status=0 QTime=14 
+2016-03-08 09:48:56.620 ERROR (qtp1450821318-14) [   x:cz4034] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/opt/bitnami/apache-solr/solr/cz4034/conf/admin-extra.html]
+2016-03-08 09:48:56.620 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1457430503851} status=404 QTime=0 
+2016-03-08 09:48:56.647 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1457430503853} status=503 QTime=3 
+2016-03-08 09:49:04.418 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1457430511585} status=0 QTime=3 
+2016-03-08 09:50:26.617 INFO  (qtp1450821318-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1457430608401} status=0 QTime=0 
+2016-03-08 09:50:26.873 INFO  (qtp1450821318-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1457430608660} status=0 QTime=5 
+2016-03-08 09:50:31.035 ERROR (qtp1450821318-18) [   x:cz4034] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/opt/bitnami/apache-solr/solr/cz4034/conf/admin-extra.menu-top.html]
+2016-03-08 09:50:31.036 INFO  (qtp1450821318-18) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1457430612680} status=404 QTime=1 
+2016-03-08 09:50:31.077 ERROR (qtp1450821318-17) [   x:cz4034] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/opt/bitnami/apache-solr/solr/cz4034/conf/admin-extra.menu-bottom.html]
+2016-03-08 09:50:31.077 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1457430612680} status=404 QTime=0 
+2016-03-08 09:50:31.433 INFO  (qtp1450821318-15) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1457430613073} status=0 QTime=0 
+2016-03-08 09:50:31.449 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/replication params={wt=json&command=details&_=1457430613085} status=0 QTime=0 
+2016-03-08 09:50:31.459 ERROR (qtp1450821318-16) [   x:cz4034] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/opt/bitnami/apache-solr/solr/cz4034/conf/admin-extra.html]
+2016-03-08 09:50:31.459 INFO  (qtp1450821318-16) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1457430613089} status=404 QTime=0 
+2016-03-08 09:50:31.462 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1457430613093} status=503 QTime=0 
+2016-03-08 09:50:31.466 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/system params={wt=json&_=1457430613085} status=0 QTime=12 
+2016-03-08 09:50:54.334 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&indent=true&wt=json&_=1457430635910} hits=1039 status=0 QTime=26 
+2016-03-08 09:51:02.735 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&indent=true&wt=json} hits=1039 status=0 QTime=0 
+2016-03-08 09:57:03.534 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={wt=json&_=1457430990766} status=0 QTime=0 
+2016-03-08 09:57:06.217 INFO  (qtp1450821318-18) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={wt=json&_=1457430993633} status=0 QTime=0 
+2016-03-08 09:57:06.409 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=stopwords.txt&contentType=text/plain;charset%3Dutf-8&_=1457430993635} status=0 QTime=0 
+2016-03-08 09:57:11.491 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=protwords.txt&contentType=text/plain;charset%3Dutf-8&_=1457430998907} status=0 QTime=0 
+2016-03-08 09:57:11.492 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={wt=json&_=1457430998904} status=0 QTime=0 
+2016-03-08 09:57:16.488 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={wt=json&_=1457431003908} status=0 QTime=0 
+2016-03-08 09:57:16.675 INFO  (qtp1450821318-15) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=stopwords.txt&contentType=text/plain;charset%3Dutf-8&_=1457431003910} status=0 QTime=0 
+2016-03-08 09:57:24.043 INFO  (qtp1450821318-18) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={wt=json&_=1457431011463} status=0 QTime=0 
+2016-03-08 09:57:24.215 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=synonyms.txt&contentType=text/plain;charset%3Dutf-8&_=1457431011465} status=0 QTime=0 
+2016-03-08 09:57:35.941 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={wt=json&_=1457431023358} status=0 QTime=0 
+2016-03-08 09:57:36.129 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=stopwords.txt&contentType=text/plain;charset%3Dutf-8&_=1457431023360} status=0 QTime=0 
+2016-03-08 10:00:35.920 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&indent=true&wt=json} hits=1039 status=0 QTime=1 
+2016-03-08 10:04:10.650 ERROR (qtp1450821318-13) [   x:cz4034] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Bad contentType for search handler :null request={q=message:love&indent=true&wt=json}
+	at org.apache.solr.request.json.RequestUtil.processParams(RequestUtil.java:74)
+	at org.apache.solr.util.SolrPluginUtils.setDefaults(SolrPluginUtils.java:175)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:153)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:223)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-08 10:04:10.653 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&indent=true&wt=json} status=400 QTime=4 
+2016-03-08 10:07:05.488 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=stopwords.txt&contentType=text/plain;charset%3Dutf-8} status=0 QTime=0 
+2016-03-08 10:07:11.531 INFO  (qtp1450821318-15) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/file params={file=stopwords.txt&callbackx=&contentType=text/plain;charset%3Dutf-8} status=0 QTime=0 
+2016-03-08 10:07:14.979 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457431602194&_=1457431602195} hits=8163 status=0 QTime=7 
+2016-03-08 10:07:14.979 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457431602194&_=1457431602195} status=0 QTime=7 
+2016-03-08 10:07:19.373 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1457431606596} hits=8163 status=0 QTime=0 
+2016-03-08 10:07:20.769 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=*:*&indent=true&wt=json} hits=8163 status=0 QTime=0 
+2016-03-08 10:07:25.787 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=*:*&indent=true&callback=x&wt=json} hits=8163 status=0 QTime=0 
+2016-03-08 10:07:34.444 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=*:*&indent=true&callback=x&wt=jsonp} hits=8163 status=0 QTime=0 
+2016-03-08 10:09:49.370 ERROR (qtp1450821318-13) [   x:cz4034] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Bad contentType for search handler :null request={q=message:love&indent=true&wt=json}
+	at org.apache.solr.request.json.RequestUtil.processParams(RequestUtil.java:74)
+	at org.apache.solr.util.SolrPluginUtils.setDefaults(SolrPluginUtils.java:175)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:153)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:223)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-08 10:09:49.374 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&indent=true&wt=json} status=400 QTime=4 
+2016-03-08 10:09:59.819 ERROR (qtp1450821318-17) [   x:cz4034] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Bad contentType for search handler :null request={q=message:love&indent=true&wt=json}
+	at org.apache.solr.request.json.RequestUtil.processParams(RequestUtil.java:74)
+	at org.apache.solr.util.SolrPluginUtils.setDefaults(SolrPluginUtils.java:175)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:153)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:223)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-08 10:09:59.819 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&indent=true&wt=json} status=400 QTime=0 
+2016-03-08 10:11:33.483 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7f383dd4{HTTP/1.1}{0.0.0.0:8983}
+2016-03-08 10:11:33.483 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1634132079
+2016-03-08 10:11:33.483 INFO  (Thread-0) [   x:cz4034] o.a.s.c.SolrCore [cz4034]  CLOSING SolrCore org.apache.solr.core.SolrCore@36ee7977
+2016-03-08 10:11:33.484 INFO  (Thread-0) [   x:cz4034] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=18293235,transaction_logs_total_number=1}
+2016-03-08 10:11:33.484 INFO  (Thread-0) [   x:cz4034] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-03-08 10:11:33.484 INFO  (Thread-0) [   x:cz4034] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-03-08 10:11:33.484 INFO  (Thread-0) [   x:cz4034] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-03-08 10:11:33.494 INFO  (Thread-0) [   x:cz4034] o.a.s.c.SolrCore [cz4034] Closing main searcher on request.
+2016-03-08 10:11:33.495 INFO  (Thread-0) [   x:cz4034] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-03-08 10:11:33.495 INFO  (Thread-0) [   x:cz4034] o.a.s.c.CachingDirectoryFactory looking to close /opt/bitnami/apache-solr/solr/cz4034/data [CachedDir<<refCount=0;path=/opt/bitnami/apache-solr/solr/cz4034/data;done=false>>]
+2016-03-08 10:11:33.495 INFO  (Thread-0) [   x:cz4034] o.a.s.c.CachingDirectoryFactory Closing directory: /opt/bitnami/apache-solr/solr/cz4034/data
+2016-03-08 10:11:33.496 INFO  (Thread-0) [   x:cz4034] o.a.s.c.CachingDirectoryFactory looking to close /opt/bitnami/apache-solr/solr/cz4034/data/index [CachedDir<<refCount=0;path=/opt/bitnami/apache-solr/solr/cz4034/data/index;done=false>>]
+2016-03-08 10:11:33.496 INFO  (Thread-0) [   x:cz4034] o.a.s.c.CachingDirectoryFactory Closing directory: /opt/bitnami/apache-solr/solr/cz4034/data/index
+2016-03-08 10:11:33.498 INFO  (Thread-0) [   x:cz4034] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@e25b2fe{/solr,file:/opt/bitnami/apache-solr/solr-webapp/webapp/,UNAVAILABLE}{/opt/bitnami/apache-solr/solr-webapp/webapp}

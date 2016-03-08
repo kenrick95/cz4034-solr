@@ -1,0 +1,11 @@
+ProxyPass /solr http://127.0.0.1:8983/solr
+ProxyPassReverse /solr http://127.0.0.1:8983/solr
+
+
+<LocationMatch "^/(solr)/.*?">
+  AuthType Basic
+  AuthName "Introduce your Apache Solr credentials. If you have problems visit: https://wiki.bitnami.com/Infrastructure_Stacks/Bitnami_Solr_Stack"
+  AuthBasicProvider file
+  AuthUserFile /opt/bitnami/apache-solr/conf/password
+  Require user user
+</LocationMatch>

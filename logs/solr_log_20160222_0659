@@ -1,0 +1,33 @@
+2016-02-22 06:58:35.379 INFO  (main) [   ] o.e.j.u.log Logging initialized @2116ms
+2016-02-22 06:58:36.121 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-02-22 06:58:36.155 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-02-22 06:58:36.157 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/opt/bitnami/apache-solr/contexts/] at interval 0
+2016-02-22 06:58:36.835 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-02-22 06:58:36.851 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@e25b2fe{/solr,file:/opt/bitnami/apache-solr/solr-webapp/webapp/,STARTING}{/opt/bitnami/apache-solr/solr-webapp/webapp} has uncovered http methods for path: /
+2016-02-22 06:58:36.871 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=117244645@6fd02e5
+2016-02-22 06:58:36.918 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-22 06:58:36.926 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /opt/bitnami/apache-solr/solr
+2016-02-22 06:58:36.927 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/opt/bitnami/apache-solr/solr'
+2016-02-22 06:58:36.927 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-22 06:58:36.927 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /opt/bitnami/apache-solr/solr
+2016-02-22 06:58:36.972 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /opt/bitnami/apache-solr/solr/solr.xml
+2016-02-22 06:58:37.506 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /opt/bitnami/apache-solr/solr
+2016-02-22 06:58:37.979 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1634132079
+2016-02-22 06:58:37.979 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/opt/bitnami/apache-solr/solr]
+2016-02-22 06:58:37.980 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /opt/bitnami/apache-solr/solr/lib to classpath: /opt/bitnami/apache-solr/solr/lib
+2016-02-22 06:58:38.082 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-02-22 06:58:38.571 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-02-22 06:58:38.573 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-02-22 06:58:38.574 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-02-22 06:58:38.576 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-02-22 06:58:38.576 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-02-22 06:58:38.613 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /opt/bitnami/apache-solr/solr
+2016-02-22 06:58:38.627 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+2016-02-22 06:58:38.631 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/opt/bitnami/apache-solr
+2016-02-22 06:58:38.631 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-02-22 06:58:38.641 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@e25b2fe{/solr,file:/opt/bitnami/apache-solr/solr-webapp/webapp/,AVAILABLE}{/opt/bitnami/apache-solr/solr-webapp/webapp}
+2016-02-22 06:58:38.655 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@705d79b3{HTTP/1.1}{0.0.0.0:8983}
+2016-02-22 06:58:38.655 INFO  (main) [   ] o.e.j.s.Server Started @5395ms
+2016-02-22 06:59:26.082 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@705d79b3{HTTP/1.1}{0.0.0.0:8983}
+2016-02-22 06:59:26.083 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1634132079
+2016-02-22 06:59:26.095 INFO  (Thread-0) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@e25b2fe{/solr,file:/opt/bitnami/apache-solr/solr-webapp/webapp/,UNAVAILABLE}{/opt/bitnami/apache-solr/solr-webapp/webapp}

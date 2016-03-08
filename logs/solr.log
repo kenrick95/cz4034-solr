@@ -1,0 +1,315 @@
+2016-03-08 10:20:26.284 INFO  (main) [   ] o.e.j.u.log Logging initialized @431ms
+2016-03-08 10:20:26.594 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-03-08 10:20:26.620 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-03-08 10:20:26.622 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/opt/bitnami/apache-solr/contexts/] at interval 0
+2016-03-08 10:20:27.430 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-03-08 10:20:27.661 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@e25b2fe{/solr,file:/opt/bitnami/apache-solr/solr-webapp/webapp/,STARTING}{/opt/bitnami/apache-solr/solr-webapp/webapp} has uncovered http methods for path: /
+2016-03-08 10:20:27.673 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=117244645@6fd02e5
+2016-03-08 10:20:27.690 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-03-08 10:20:27.695 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /opt/bitnami/apache-solr/solr
+2016-03-08 10:20:27.696 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/opt/bitnami/apache-solr/solr'
+2016-03-08 10:20:27.700 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-03-08 10:20:27.700 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /opt/bitnami/apache-solr/solr
+2016-03-08 10:20:27.709 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /opt/bitnami/apache-solr/solr/solr.xml
+2016-03-08 10:20:27.793 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /opt/bitnami/apache-solr/solr
+2016-03-08 10:20:27.823 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1634132079
+2016-03-08 10:20:27.824 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/opt/bitnami/apache-solr/solr]
+2016-03-08 10:20:27.824 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /opt/bitnami/apache-solr/solr/lib to classpath: /opt/bitnami/apache-solr/solr/lib
+2016-03-08 10:20:27.836 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-03-08 10:20:28.257 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-03-08 10:20:28.361 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-03-08 10:20:28.362 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-03-08 10:20:28.364 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-03-08 10:20:28.364 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-03-08 10:20:28.402 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /opt/bitnami/apache-solr/solr
+2016-03-08 10:20:29.197 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=cz4034, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/opt/bitnami/apache-solr/solr/cz4034, absoluteInstDir=/opt/bitnami/apache-solr/solr/cz4034/, dataDir=data}
+2016-03-08 10:20:29.198 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core cz4034 in /opt/bitnami/apache-solr/solr/cz4034/
+2016-03-08 10:20:29.406 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-03-08 10:20:29.411 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/opt/bitnami/apache-solr/solr/cz4034'
+2016-03-08 10:20:29.411 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-03-08 10:20:29.411 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /opt/bitnami/apache-solr/solr
+2016-03-08 10:20:29.414 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/opt/bitnami/apache-solr
+2016-03-08 10:20:29.414 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-03-08 10:20:29.656 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@e25b2fe{/solr,file:/opt/bitnami/apache-solr/solr-webapp/webapp/,AVAILABLE}{/opt/bitnami/apache-solr/solr-webapp/webapp}
+2016-03-08 10:20:29.698 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7f383dd4{HTTP/1.1}{0.0.0.0:8983}
+2016-03-08 10:20:29.698 INFO  (main) [   ] o.e.j.s.Server Started @3847ms
+2016-03-08 10:20:29.741 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-03-08 10:20:29.744 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-03-08 10:20:30.029 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-03-08 10:20:30.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2016-03-08 10:20:30.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2016-03-08 10:20:30.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2016-03-08 10:20:30.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2016-03-08 10:20:30.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-03-08 10:20:30.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2016-03-08 10:20:30.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-03-08 10:20:30.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/dist/solr-cell-5.4.1.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/dist/solr-clustering-5.4.1.jar' to classloader
+2016-03-08 10:20:30.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/dist/solr-langid-5.4.1.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-03-08 10:20:30.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/opt/bitnami/apache-solr/dist/solr-velocity-5.4.1.jar' to classloader
+2016-03-08 10:20:34.426 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.1
+2016-03-08 10:20:35.748 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-03-08 10:20:36.248 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [cz4034] Schema name=cz4034-schema
+2016-03-08 10:20:43.666 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: post_id
+2016-03-08 10:20:48.919 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-03-08 10:20:48.946 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-03-08 10:20:49.406 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/opt/bitnami/apache-solr/solr/cz4034'
+2016-03-08 10:20:49.408 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'cz4034' using configuration from instancedir /opt/bitnami/apache-solr/solr/cz4034
+2016-03-08 10:20:50.164 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-03-08 10:20:50.383 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore [[cz4034] ] Opening new SolrCore at [/opt/bitnami/apache-solr/solr/cz4034], dataDir=[null]
+2016-03-08 10:20:50.389 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-03-08 10:20:50.396 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore [[cz4034] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-03-08 10:20:50.396 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore [[cz4034] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-03-08 10:20:50.674 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.CachingDirectoryFactory return new directory for /opt/bitnami/apache-solr/solr/cz4034/data
+2016-03-08 10:20:50.689 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore New index directory detected: old=null new=/opt/bitnami/apache-solr/solr/cz4034/data/index/
+2016-03-08 10:20:50.692 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.CachingDirectoryFactory return new directory for /opt/bitnami/apache-solr/solr/cz4034/data/index
+2016-03-08 10:20:51.173 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-03-08 10:20:51.173 INFO  (OldIndexDirectoryCleanupThreadForCore-cz4034) [   x:cz4034] o.a.s.c.SolrCore Looking for old index directories to cleanup for core cz4034 in /opt/bitnami/apache-solr/solr/cz4034/data/
+2016-03-08 10:20:51.426 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-03-08 10:20:56.428 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2016-03-08 10:20:57.182 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-03-08 10:20:58.008 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-08 10:20:58.012 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-08 10:20:58.012 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-08 10:20:58.013 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-08 10:20:58.227 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-03-08 10:20:58.228 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-03-08 10:20:58.228 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-03-08 10:20:58.229 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-03-08 10:20:58.229 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-03-08 10:20:58.229 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-03-08 10:20:58.229 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-03-08 10:20:58.230 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2016-03-08 10:20:58.232 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-03-08 10:20:58.390 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-03-08 10:20:58.392 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-03-08 10:20:58.634 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-03-08 10:20:58.634 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-03-08 10:20:58.945 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/opt/bitnami/apache-solr/solr/cz4034/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@6ddf5f7e; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2016-03-08 10:20:58.947 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.SolrDeletionPolicy newest commit generation = 6
+2016-03-08 10:20:59.421 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.s.SolrIndexSearcher Opening Searcher@54b7c234[cz4034] main
+2016-03-08 10:20:59.434 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /opt/bitnami/apache-solr/solr/cz4034/conf
+2016-03-08 10:20:59.434 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/opt/bitnami/apache-solr/solr/cz4034/conf}
+2016-03-08 10:20:59.701 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/opt/bitnami/apache-solr/solr/cz4034/conf
+2016-03-08 10:20:59.702 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-03-08 10:20:59.772 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-03-08 10:20:59.842 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-03-08 10:20:59.849 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-03-08 10:20:59.857 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /opt/bitnami/apache-solr/solr/cz4034/conf/elevate.xml
+2016-03-08 10:20:59.893 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-03-08 10:20:59.896 INFO  (searcherExecutor-7-thread-1-processing-x:cz4034) [   x:cz4034] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@54b7c234[cz4034] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.4.1):C8163)))}
+2016-03-08 10:20:59.896 INFO  (searcherExecutor-7-thread-1-processing-x:cz4034) [   x:cz4034] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-03-08 10:20:59.896 INFO  (searcherExecutor-7-thread-1-processing-x:cz4034) [   x:cz4034] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-03-08 10:20:59.896 INFO  (searcherExecutor-7-thread-1-processing-x:cz4034) [   x:cz4034] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-03-08 10:20:59.896 INFO  (searcherExecutor-7-thread-1-processing-x:cz4034) [   x:cz4034] o.a.s.c.SolrCore [cz4034] Registered new searcher Searcher@54b7c234[cz4034] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.4.1):C8163)))}
+2016-03-08 10:20:59.897 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-03-08 10:20:59.898 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-03-08 10:20:59.915 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.VersionInfo Found MAX value 1527696406489333761 from Terms for _version_ in index
+2016-03-08 10:20:59.919 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.u.UpdateLog Took 22.0ms to seed version buckets with highest version 1527696406489333761
+2016-03-08 10:20:59.920 INFO  (coreLoadExecutor-6-thread-1) [   x:cz4034] o.a.s.c.CoreContainer registering core: cz4034
+2016-03-08 10:21:00.442 INFO  (qtp1450821318-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1457432445871} status=0 QTime=37 
+2016-03-08 10:21:01.413 INFO  (qtp1450821318-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1457432446141} status=0 QTime=748 
+2016-03-08 10:22:27.240 INFO  (qtp1450821318-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1457432532707} status=0 QTime=0 
+2016-03-08 10:22:27.479 INFO  (qtp1450821318-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1457432532931} status=0 QTime=9 
+2016-03-08 10:22:32.798 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22007515804418362677_1457432551433&indent=true&wt=json&_=1457432551434} hits=1039 status=0 QTime=117 
+2016-03-08 10:27:07.900 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22007499811672605574_1457432824178&indent=true&wt=json&_=1457432824179} hits=1039 status=0 QTime=1 
+2016-03-08 10:27:11.111 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22007499811672605574_1457432824178&indent=true&wt=json&_=1457432824180} hits=1039 status=0 QTime=1 
+2016-03-08 10:27:47.832 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22005122328498400748_1457432864645&indent=true&wt=json&_=1457432864646} hits=1039 status=0 QTime=4 
+2016-03-08 10:28:05.670 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22006994841552805156_1457432881707&indent=true&wt=json&_=1457432881708} hits=1039 status=0 QTime=0 
+2016-03-08 10:28:08.727 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22006994841552805156_1457432881707&indent=true&wt=json&_=1457432881709} hits=1039 status=0 QTime=0 
+2016-03-08 10:29:49.954 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22009537068426143378_1457432987482&indent=true&wt=json&_=1457432987483} hits=1039 status=0 QTime=0 
+2016-03-08 10:30:34.228 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery220014328313223086298_1457433029353&indent=true&wt=json&_=1457433029354} hits=1039 status=0 QTime=1 
+2016-03-08 10:31:55.784 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery2200801593292504549_1457433110696&indent=true&wt=json&_=1457433110697} hits=1039 status=0 QTime=6 
+2016-03-08 10:32:57.905 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery220027293633366934955_1457433175006&indent=true&wt=json&_=1457433175007} hits=1039 status=0 QTime=1 
+2016-03-08 10:34:00.419 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery220022462694672867656_1457433233014&indent=true&wt=json&_=1457433233015} hits=1039 status=0 QTime=4 
+2016-03-08 10:35:57.314 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:love&json.wrf=jQuery22009437811244279146_1457433341943&indent=true&wt=json&_=1457433341944} hits=1039 status=0 QTime=1 
+2016-03-08 10:36:59.853 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:Agree&json.wrf=jQuery22006982693115714937_1457433414346&indent=true&wt=json&_=1457433414347} hits=207 status=0 QTime=37 
+2016-03-08 10:40:06.909 ERROR (qtp1450821318-13) [   x:cz4034] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field _text_
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1279)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:429)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:169)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:373)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:760)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:548)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:315)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:140)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:154)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:247)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:223)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-08 10:40:06.910 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:i+think+you+are+crazy&json.wrf=jQuery220008185330056585371_1457433594954&indent=true&wt=json&_=1457433594955} status=400 QTime=142 
+2016-03-08 10:40:13.407 ERROR (qtp1450821318-17) [   x:cz4034] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field _text_
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1279)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:429)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:169)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:373)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:760)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:548)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:315)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:140)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:154)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:247)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:223)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-08 10:40:13.409 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:i+think+you+are+crazy&json.wrf=jQuery220008185330056585371_1457433594954&indent=true&wt=json&_=1457433594956} status=400 QTime=2 
+2016-03-08 10:40:32.768 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433618506&_=1457433618508} hits=8163 status=0 QTime=27 
+2016-03-08 10:40:32.769 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433618506&_=1457433618508} status=0 QTime=28 
+2016-03-08 10:40:33.430 INFO  (qtp1450821318-17) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:hello&json.wrf=jQuery220008185330056585371_1457433594954&indent=true&wt=json&_=1457433594957} hits=125 status=0 QTime=85 
+2016-03-08 10:40:34.455 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433619833&_=1457433619833} hits=8163 status=0 QTime=0 
+2016-03-08 10:40:34.456 INFO  (qtp1450821318-20) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433619833&_=1457433619833} status=0 QTime=0 
+2016-03-08 10:40:35.900 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433621657&_=1457433621659} hits=8163 status=0 QTime=0 
+2016-03-08 10:40:35.900 INFO  (qtp1450821318-13) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433621657&_=1457433621659} status=0 QTime=0 
+2016-03-08 10:40:37.712 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433623481&_=1457433623481} hits=8163 status=0 QTime=0 
+2016-03-08 10:40:37.713 INFO  (qtp1450821318-14) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433623481&_=1457433623481} status=0 QTime=0 
+2016-03-08 10:40:39.840 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433625584&_=1457433625585} hits=8163 status=0 QTime=0 
+2016-03-08 10:40:39.841 INFO  (qtp1450821318-19) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/admin/ping params={wt=json&ts=1457433625584&_=1457433625585} status=0 QTime=0 
+2016-03-08 10:40:43.557 ERROR (qtp1450821318-18) [   x:cz4034] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field _text_
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1279)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:429)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:169)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:373)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:760)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:548)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:315)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:140)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:154)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:247)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:223)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-08 10:40:43.557 INFO  (qtp1450821318-18) [   x:cz4034] o.a.s.c.S.Request [cz4034] webapp=/solr path=/select params={q=message:hello+world&json.wrf=jQuery220008185330056585371_1457433594954&indent=true&wt=json&_=1457433594958} status=400 QTime=1 

@@ -416,12 +416,44 @@
   <fieldType name="tlong" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="8"/>
   <fieldType name="tlongs" class="solr.TrieLongField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
   <field name="_version_" type="long" indexed="true" stored="true"/>
-  <field name="comment_count" type="tlongs"/>
-  <field name="comments" type="text_en" multiValued="true"/>
-  <field name="stemmed_comments" type="text_en_nonstemmed" multiValued="true"/>
-  <field name="created_time" type="long" required="true"/>
-  <field name="like_count" type="tlongs"/>
-  <field name="message" type="text_en" required="true"/>
-  <field name="stemmed_message" type="text_en_nonstemmed" required="true"/>
+  <field name="created_time" type="long" required="true" multiValued="false"/>
+  <field name="like_count" type="tlongs" multiValued="false"/>
+  <field name="message" type="text_en" required="false"/>
+  <field name="stemmed_message" type="text_en_nonstemmed" required="false"/>
+
+  <field name="source" type="string" multiValued="false" required="true"/>
+  <field name="category" type="string" required="true"/>
+  <field name="attachment_fb_object_id" type="string" multiValued="false" required="false"/>
+  <field name="attachment_fb_object_type" type="string" multiValued="false" required="false"/>
+  <field name="attachment_name" type="string" multiValued="false" required="false"/>
+  <field name="attachment_icon" type="string" multiValued="false" required="false"/>
+  <field name="attachment_caption" type="string" multiValued="false" required="false"/>
+  <field name="attachment_description" type="string" multiValued="false" required="false"/>
+  <field name="attachment_href" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_src" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_alt" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_href" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_fullsize_src" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_type" type="string" multiValued="false" required="false"/>
+  <field name="attachment_properties_name" type="string" multiValued="true" required="false"/>
+  <field name="attachment_properties_text" type="string" multiValued="true" required="false"/>
+  <field name="attachment_media_video_owner" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_video_display_url" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_video_created_time" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_video_preview_img" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_video_source_type" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_video_permalink" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_video_source_url" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_owner" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_fbid" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_width" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_index" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_pid" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_aid" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_height" type="string" multiValued="false" required="false"/>
+  <field name="attachment_media_photo_images_src" type="string" multiValued="true" required="false"/>
+  <field name="attachment_media_photo_images_width" type="string" multiValued="true" required="false"/>
+  <field name="attachment_media_photo_images_height" type="string" multiValued="true" required="false"/>
   <field name="post_id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+
 </schema>

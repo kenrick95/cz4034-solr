@@ -425,10 +425,10 @@
   <field name="category" type="string" required="true"/>
   <field name="attachment_fb_object_id" type="string" multiValued="false" required="false"/>
   <field name="attachment_fb_object_type" type="string" multiValued="false" required="false"/>
-  <field name="attachment_name" type="string" multiValued="false" required="false"/>
+  <field name="attachment_name" type="text_en" multiValued="false" required="false"/>
   <field name="attachment_icon" type="string" multiValued="false" required="false"/>
   <field name="attachment_caption" type="string" multiValued="false" required="false"/>
-  <field name="attachment_description" type="string" multiValued="false" required="false"/>
+  <field name="attachment_description" type="text_en" multiValued="false" required="false"/>
   <field name="attachment_href" type="string" multiValued="false" required="false"/>
   <field name="attachment_media_src" type="string" multiValued="false" required="false"/>
   <field name="attachment_media_alt" type="string" multiValued="false" required="false"/>
@@ -455,5 +455,8 @@
   <field name="attachment_media_photo_images_width" type="string" multiValued="true" required="false"/>
   <field name="attachment_media_photo_images_height" type="string" multiValued="true" required="false"/>
   <field name="post_id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+
+  <uniqueKey>post_id</uniqueKey>
+
 
 </schema>

@@ -1117,6 +1117,35 @@ startup="lazy">
       <str>terms</str>
     </arr>
   </requestHandler>
+
+
+  <searchComponent name="suggest" class="solr.SuggestComponent">
+    <lst name="suggester">
+      <str name="name">mySuggester</str>
+      <str name="lookupImpl">BlendedInfixLookupFactory</str>
+      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="field">message</str>
+      <str name="weightField">like_count</str>
+      <str name="suggestAnalyzerFieldType">text_en</str>
+      <str name="buildOnCommit">true</str>
+      <str name="buildOnStartup">true</str>
+    </lst>
+  </searchComponent>
+
+  <requestHandler name="/suggest" class="solr.SearchHandler" 
+                  startup="lazy" >
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.dictionary">mySuggester</str>
+      <str name="suggest.count">10</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
+    </arr>
+  </requestHandler>
+
+
+
   <!-- Query Elevation Component
        http://wiki.apache.org/solr/QueryElevationComponent
        a search component that enables you to configure the top

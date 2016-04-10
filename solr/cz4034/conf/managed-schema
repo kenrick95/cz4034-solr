@@ -415,14 +415,14 @@
   <fieldType name="tints" class="solr.TrieIntField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
   <fieldType name="tlong" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="8"/>
   <fieldType name="tlongs" class="solr.TrieLongField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
-  <field name="_version_" type="long" indexed="true" stored="true"/>
-  <field name="created_time" type="long" required="true" multiValued="false"/>
+  <field name="_version_" type="long" indexed="true" stored="false"/>
+  <field name="created_time" type="long" required="false" multiValued="false"/>
   <field name="like_count" type="tlongs" multiValued="false"/>
   <field name="message" type="text_en" required="false"/>
   <field name="stemmed_message" type="text_en_nonstemmed" required="false"/>
 
-  <field name="source" type="string" multiValued="false" required="true"/>
-  <field name="category" type="string" required="true"/>
+  <field name="source" type="string" multiValued="false" required="false"/>
+  <field name="category" type="string" required="false"/>
   <field name="attachment_fb_object_id" type="string" multiValued="false" required="false"/>
   <field name="attachment_fb_object_type" type="string" multiValued="false" required="false"/>
   <field name="attachment_name" type="text_en" multiValued="false" required="false"/>
@@ -455,6 +455,7 @@
   <field name="attachment_media_photo_images_width" type="string" multiValued="true" required="false"/>
   <field name="attachment_media_photo_images_height" type="string" multiValued="true" required="false"/>
   <field name="post_id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="click_count" type="int" multiValued="false" required="false" default="0"/>
 
   <uniqueKey>post_id</uniqueKey>
 

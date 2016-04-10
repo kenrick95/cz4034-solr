@@ -1122,7 +1122,7 @@ startup="lazy">
   <searchComponent name="suggest" class="solr.SuggestComponent">
     <lst name="suggester">
       <str name="name">mySuggester</str>
-      <str name="lookupImpl">BlendedInfixLookupFactory</str>
+      <str name="lookupImpl">FuzzyLookupFactory</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
       <str name="field">message</str>
       <str name="weightField">like_count</str>
